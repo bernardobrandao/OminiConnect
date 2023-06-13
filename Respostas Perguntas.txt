@@ -1,0 +1,30 @@
+1. A solução deve ser disponibilizada em Cloud ou On-premise? 
+Cloud
+
+2. Considerando a participação de 4 pessoas técnicas para o desenvolvimento dessa solução,
+responda qual ferramenta acreditas ser apropriada para o controle de tarefas da equipe,
+a ferramenta é ágil? 
+Azure Devops ou Jira 
+
+3.Você se sente capaz de liderar esta equipe? Por quê? 
+Com base nas minhas habilidades, experiência e conhecimento técnico, eu me sinto confiante em liderar esta equipe. Tenho uma vasta experiência na área de desenvolvimento de software, incluindo projetos semelhantes ao que estamos enfrentando. Possuo um bom entendimento dos requisitos técnicos e das melhores práticas de desenvolvimento.
+Além disso, tenho habilidades sólidas de comunicação e sou capaz de estabelecer um ambiente de trabalho colaborativo. Acredito na importância de ouvir e valorizar as contribuições de cada membro da equipe, promovendo um ambiente onde todos possam se sentir engajados e motivados.
+Tenho experiência em liderança de equipes técnicas, sendo capaz de delegar tarefas de forma eficaz, identificar e solucionar problemas, e motivar os membros da equipe a alcançar seus melhores resultados. Também estou familiarizado com metodologias ágeis, o que nos ajudará a manter um fluxo de trabalho eficiente e adaptável às mudanças.
+Em resumo, com base nas minhas habilidades técnicas, experiência em liderança e capacidade de comunicação, sinto-me confiante em liderar esta equipe e alcançar os objetivos do projeto de forma eficaz.
+
+4.Se pudesse sugerir uma melhoria, mudança ou oportunidade. O que seria? 
+
+Uma oportunidade de melhoria que eu sugeriria é a implementação de testes automatizados para garantir a qualidade do software desenvolvido. Os testes automatizados, como testes unitários, testes de integração e testes de aceitação, podem ajudar a identificar erros e falhas em um estágio inicial do desenvolvimento, permitindo que sejam corrigidos antes que afetem a experiência do usuário final.
+Ao introduzir uma cultura de testes automatizados, a equipe pode obter os seguintes benefícios:
+Melhoria da qualidade do software: Os testes automatizados ajudam a identificar problemas e erros mais rapidamente, permitindo que sejam corrigidos antes que se tornem problemas maiores. Isso resulta em um software mais confiável e estável.
+Facilidade de manutenção: Com uma suíte de testes automatizados abrangente, a equipe pode garantir que as alterações e atualizações futuras não causem regressões ou efeitos colaterais indesejados.
+Agilidade no desenvolvimento: Os testes automatizados permitem a detecção precoce de problemas, o que ajuda a reduzir o tempo necessário para depurar e corrigir erros. Isso permite que a equipe entregue novos recursos e correções mais rapidamente.
+Confiança nos releases: Com testes automatizados, a equipe pode ter mais confiança na qualidade dos releases, permitindo lançamentos mais frequentes e com menor risco.
+Além disso, é importante estabelecer práticas de integração contínua e entrega contínua (CI/CD) para automatizar o processo de construção, teste e implantação do software. Isso ajudará a agilizar o ciclo de desenvolvimento e facilitar a entrega contínua de valor aos usuários finais.
+Em resumo, investir em testes automatizados e práticas de CI/CD pode trazer melhorias significativas para a qualidade do software, a produtividade da equipe e a confiabilidade das entregas.
+
+5.Acha válido esse desafio para o processo que está participando?
+Sim, o desafio proposto é bastante relevante para avaliar suas habilidades e competências em diferentes áreas, como arquitetura de software, desenvolvimento, integração com APIs externas e boas práticas de programação.
+Ao enfrentar esse desafio, você tem a oportunidade de demonstrar seu conhecimento técnico, capacidade de análise e resolução de problemas, bem como habilidades de comunicação ao documentar e explicar sua solução.
+Além disso, o desafio aborda questões importantes relacionadas à experiência do usuário, como a unificação da interação em diferentes canais e a criação de uma infraestrutura escalável. Isso mostra que você está ciente das necessidades do cliente e tem a capacidade de projetar e implementar soluções que atendam a essas necessidades.
+Portanto, esse desafio é uma oportunidade valiosa para demonstrar suas habilidades e destacar-se no processo seletivo. Certifique-se de abordar cada etapa do desafio de forma cuidadosa e clara, e esteja preparado para apresentar sua solução e responder a quaisquer perguntas que possam surgir durante a avaliação. 
