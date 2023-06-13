@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using OminiConnect.DTOs;
 using OminiConnect.Models;
+using OminiConnect.Repository;
 
 namespace OminiConnect.Controllers
 {
@@ -17,14 +19,14 @@ namespace OminiConnect.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateUser(UserDTO userDTO)
-        {
-            // Validação dos dados do usuário
+        public async Task <IActionResult> CreateUser(UserDTO userDTO)
+        {           
+            AddressDTO addressDTO = await _viaCEPService.GetAddressByPostalCode(userDTO.PostalCode);
+            if (addressDTO == null)
+            {
+               return BadRequest("Não foi possível obter o endereço a partir do CEP fornecido.");
+            }
 
-            // Verificação do endereço através da API ViaCEP
-            AddressDTO addressDTO = _viaCEPService.GetAddressByPostalCode(userDTO.PostalCode);
-
-            // Criação do objeto User
             User user = new User
             {
                 FullName = userDTO.FullName,
@@ -34,16 +36,15 @@ namespace OminiConnect.Controllers
                 CreationDate = DateTime.Now
             };
 
-            // Criação do objeto Address
+           
             Address address = new Address
             {
-                Street = addressDTO.Street,
-                City = addressDTO.City,
-                State = addressDTO.State,
-                PostalCode = addressDTO.PostalCode
+                Street = addressDTO.Logradouro,
+                City = addressDTO.Localidade,
+                State = addressDTO.UF,
+                PostalCode = addressDTO.CEP
             };
 
-            // Salvar o usuário e o endereço no banco de dados
             _userRepository.CreateUser(user);
             address.UserId = user.Id;
             _addressRepository.CreateAddress(address);
